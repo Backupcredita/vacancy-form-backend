@@ -16,7 +16,7 @@ const db = mysql.createConnection({
     user: 'avnadmin', // replace with your MySQL username
     password: 'AVNS_imXagB_IpbsjzLVeOfc', // replace with your MySQL password
     database: 'vacancy_form_db' // replace with your database name
-    port: 19594
+    
 });
 
 // Connect to MySQL
@@ -46,5 +46,5 @@ app.post('/apply', (req, res) => {
 
 // Start the server
 app.listen(PORT, () => {
-    console.log(`Server is running on https://vacancy-form-backend.onrender.com:${19594}`);
+    console.log(`Server is running on https://vacancy-form-backend.onrender.com:${3000}`);
 });

@@ -12,10 +12,11 @@ app.use(bodyParser.json());
 
 // MySQL Connection
 const db = mysql.createConnection({
-    host: 'localhost',
-    user: 'Host', // replace with your MySQL username
-    password: 'Creditafinance@123', // replace with your MySQL password
+    host: 'mysql-loan-application-backupcredita-5ebc.g.aivencloud.com',
+    user: 'avnadmin', // replace with your MySQL username
+    password: 'AVNS_imXagB_IpbsjzLVeOfc', // replace with your MySQL password
     database: 'vacancy_form_db' // replace with your database name
+    port: 19594
 });
 
 // Connect to MySQL

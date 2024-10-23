@@ -4,7 +4,7 @@ const mysql = require('mysql2');
 const cors = require('cors');
 
 const app = express();
-const PORT = 3000;
+const PORT = 19594;
 
 // Middleware
 app.use(cors());
@@ -47,5 +47,5 @@ app.post('/apply', (req, res) => {
 
 // Start the server
 app.listen(PORT, () => {
-    console.log(`Server is running on https://vacancy-form-backend.onrender.com:${3000}`);
+    console.log(`Server is running on https://vacancy-form-backend.onrender.com:${19594}`);
 });

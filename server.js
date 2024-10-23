@@ -16,7 +16,7 @@ const db = mysql.createConnection({
     user: 'avnadmin', // replace with your MySQL username
     password: 'AVNS_imXagB_IpbsjzLVeOfc', // replace with your MySQL password
     database: 'vacancy_form_db' // replace with your database name
-    port: 3306
+ 
     
 });
 

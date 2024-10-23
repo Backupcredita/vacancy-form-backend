@@ -15,7 +15,8 @@ const db = mysql.createConnection({
     host: 'mysql-loan-application-backupcredita-5ebc.g.aivencloud.com',
     user: 'avnadmin', // replace with your MySQL username
     password: 'AVNS_imXagB_IpbsjzLVeOfc', // replace with your MySQL password
-    database: 'vacancy_form_db' // replace with your database name
+    database: 'vacancy_form_db', // replace with your database name
+    port:19594
  
     
 });
